@@ -16,7 +16,7 @@ Feature: Articles
     And match response.article.title == 'B100l'
 
 
-  @debug
+
   Scenario: Create and delete article
     Given header Authorization = 'Token ' + token
     Given path 'articles'
