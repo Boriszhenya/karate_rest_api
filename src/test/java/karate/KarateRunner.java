@@ -15,6 +15,7 @@ class KarateRunner {
 
     @Karate.Test
     Karate testsDebug() {
+
         return Karate.run().tags("@debug").relativeTo(getClass());
     }
 }
